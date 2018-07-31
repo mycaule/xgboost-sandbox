@@ -22,6 +22,8 @@ $ sbt run
 ### Roadmap
 
 - [ ] Setup basic project using [Getting started](https://xgboost.readthedocs.io/en/latest/get_started.html)
+- [ ] Deploy to Heroku like service, MapR ?
+- [ ] Code documentation using [`tut`](https://github.com/tpolecat/tut) or [`socco`](https://github.com/criteo/socco)
 
 ### References
 
