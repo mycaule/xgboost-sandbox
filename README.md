@@ -21,11 +21,11 @@ $ sbt run
 
 ### Roadmap
 
-- [ ] Setup basic project using [Getting started](https://xgboost.readthedocs.io/en/latest/get_started.html)
 - [ ] Deploy to Heroku like service, MapR ?
 - [ ] Code documentation using [`tut`](https://github.com/tpolecat/tut) or [`socco`](https://github.com/criteo/socco)
 
 ### References
 
 * [XGBoost Documentation](https://xgboost.readthedocs.io/en/latest/)
+* [XGBoost4J Source code](https://github.com/dmlc/xgboost/tree/master/jvm-packages/xgboost4j/src/main/scala/ml/dmlc/xgboost4j/scala)
 * [Featran](https://github.com/spotify/featran)

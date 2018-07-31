@@ -28,7 +28,7 @@ lazy val root = (project in file("."))
   .settings(
     inThisBuild(List(
       organization := "com.sandbox",
-      scalaVersion := "2.12.4",
+      scalaVersion := "2.12.6",
       version      := "0.2.0-SNAPSHOT"
     )),
     name := "xgboost-sandbox",
@@ -38,6 +38,10 @@ lazy val root = (project in file("."))
     libraryDependencies ++= Seq(
       "ml.dmlc" % "xgboost4j" % "0.72",
       "org.scalatest" %%  "scalatest" % "3.0.5" % Test,
-      "com.spotify" %% "featran-core" % "0.2.0"
+      "com.spotify" %% "featran-core" % "0.2.0",
+      "org.scalanlp" %% "breeze" % "1.0-RC2",
+      "org.scalanlp" %% "breeze-natives" % "1.0-RC2",
+      "org.scalanlp" %% "breeze-viz" % "1.0-RC2",
+      "org.typelevel"  %% "squants"  % "1.3.0"
     )
   )
