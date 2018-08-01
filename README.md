@@ -28,4 +28,5 @@ $ sbt run
 
 * [XGBoost Documentation](https://xgboost.readthedocs.io/en/latest/)
 * [XGBoost4J Source code](https://github.com/dmlc/xgboost/tree/master/jvm-packages/xgboost4j/src/main/scala/ml/dmlc/xgboost4j/scala)
+* [XGBoost Parameters](https://xgboost.readthedocs.io/en/latest/parameter.html)
 * [Featran](https://github.com/spotify/featran)
